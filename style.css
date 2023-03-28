@@ -3,6 +3,7 @@
 }
 .body{
     font-family: sans-serif;
+    color: #202020;
 }
 .header{
     background-color: #f1f1f1;
@@ -69,4 +70,80 @@ font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 text-decoration: none;
+}
+.hero{
+    padding-top: 60px;
+}
+.hero-conteiner{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.hero-img{
+    margin-right: 122px;
+}
+.autor{
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.title{
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.subtitle{
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+.info{
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+.info-text{
+    font-size: 16px;
+    font-weight: 400;
+    flex-basis: 50%;
+    margin-bottom: 16px;
+}
+.prisetag{
+    font-weight: 400;
+    font-size: 55px;
+    margin-right: 64px;
+}
+.fovorites{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+    padding-left: 70px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 22px 50px;
+    border-radius: 5px;
+    border: 2px solid #f89c02;
+}
+.button-primary{
+    background-color: #f89c02;
+    color: #ffff;
+    border: none;
+    margin-top: 48px;
+    margin-right: 20px;
+}
+.button-outline{
+    border: 2px solid #f89c02;
+    color: #f89c02;
+    text-decoration: none;
 }
