@@ -149,3 +149,48 @@ text-decoration: none;
     color: #f89c02;
     text-decoration: none;
 }
+.about{
+    background-color: #f1f1f1;
+    padding: 99px 0px;
+}
+.about-container{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.about-book{
+    max-width: 454px;
+    max-height: 208px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-autor{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 552px;
+    box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    padding: 68px 53px;
+    align-items: center;
+}
+.autor-text{
+    flex-basis: 100%;
+    margin-top: 24px;
+    width: 381px;
+    height: 64px;
+}
+.autor-link{
+    text-decoration: none;
+    color: #202020;
+}
+.autor{
+    margin-right: 21px;
+}
+.autor-name{
+    margin-bottom: 14px;
+}
