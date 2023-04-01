@@ -4,7 +4,7 @@
     padding: 0;
 }
 .body{
-    font-family: sans-serif;
+    font-family: Tahoma sans-serif;
     color: #202020;
 }
 .header{
@@ -75,6 +75,7 @@ text-decoration: none;
 }
 .hero{
     padding-top: 60px;
+    padding-bottom: 71px;
 }
 .hero-conteiner{
     max-width: 1140px;
@@ -92,7 +93,7 @@ text-decoration: none;
     font-weight: 400;
     margin-bottom: 22px;
 }
-.title{
+.about-title{
     font-size: 54px;
     font-weight: 700;
     margin-bottom: 15px;
