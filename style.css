@@ -239,7 +239,11 @@
 }
 
 .footer {
+<<<<<<< HEAD
+    background-color: #f1f1f1a5;
+=======
     background-color: #f1f1f1;
+>>>>>>> 81cacd08fef0f94b98e44031fc6b3373f3ee4965
     padding-top: 60px;
     padding-bottom: 93px;
 }
