@@ -10,6 +10,10 @@
     color: #202020;
 }
 
+img {
+    max-width: 100%;
+}
+
 .header {
     background-color: #f1f1f1;
     padding: 22px 0;
@@ -84,12 +88,17 @@
     text-decoration: none;
 }
 
+.about-title {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
 .hero {
     padding-top: 120px;
     padding-bottom: 71px;
 }
 
-.hero-conteiner {
+.hero-container {
     max-width: 1140px;
     margin: auto;
     display: flex;
@@ -100,16 +109,6 @@
 .hero-img {
     margin-right: 122px;
     position: relative;
-}
-
-.sale {
-    position: absolute;
-    right: 0;
-    top: 23px;
-    background-color: tomato;
-    color: #ffffff;
-    padding: 12px 17px;
-
 }
 
 .autor {
@@ -258,6 +257,7 @@
 }
 
 .list-item {
+    font-size: 16px;
     margin-bottom: 16px;
 }
 
@@ -290,4 +290,95 @@
     border: 1px solid #eeeeee;
     background-color: #ffffff;
     padding: 18px;
+}
+
+@media (max-width: 1200px) {
+
+    .header-container,
+    .hero-container,
+    .about-container,
+    .footer-container {
+        max-width: 960px;
+    }
+
+    .hero-img {
+        margin-right: 30px;
+        max-width: 390px;
+        min-width: 390px;
+    }
+
+    .about-book {
+        max-width: 367px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header-container,
+    .hero-container,
+    .about-container,
+    .footer-container {
+        max-width: 760px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hero-img {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .autor {
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+
+    .title {
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-bottom: 28px;
+    }
+
+    .info {
+        margin-bottom: 39px;
+    }
+
+    .info-text {
+        font-size: 16px;
+    }
+
+    .age,
+    .format {
+        flex-grow: 1;
+    }
+
+    .price {
+        margin-bottom: 39px;
+    }
+
+    .button {
+        padding: 20px 40px;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+    }
+
+    .about-book {
+        max-width: 100%;
+        margin-bottom: 62px;
+    }
+
+    .requsites,
+    .information {
+        margin-right: 68px;
+    }
+
+
 }
